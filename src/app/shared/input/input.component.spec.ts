@@ -11,7 +11,9 @@ describe('InputComponent', () => {
       declarations: [ InputComponent ]
     })
     .compileComponents();
+  });
 
+  beforeEach(() => {
     fixture = TestBed.createComponent(InputComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
